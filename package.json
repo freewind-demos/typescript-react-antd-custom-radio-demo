@@ -1,20 +1,20 @@
 {
   "scripts": {
-    "start": "parcel index.html --open",
-    "build": "parcel build index.html"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "antd": "^5.12.1"
   },
   "devDependencies": {
-    "@types/node": "17.0.21",
-    "@types/react": "17.0.40",
-    "@types/react-dom": "17.0.13",
-    "antd": "5.0.5",
-    "@parcel/transformer-typescript-tsc": "^2.9.3",
-    "parcel": "^2.9.3",
-    "process": "^0.11.10"
+    "@types/react": "^18.2.42",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "^5.3.2",
+    "vite": "^5.0.5"
   },
-  "packageManager": "pnpm@8.15.4+sha512.0bd3a9be9eb0e9a692676deec00a303ba218ba279d99241475616b398dbaeedd11146f92c2843458f557b1d127e09d4c171e105bdcd6b61002b39685a8016b9e"
+  "packageManager": "pnpm@9.2.0+sha512.98a80fd11c2e7096747762304106432b3ddc67dcf54b5a8c01c93f68a2cd5e05e6821849522a06fb76284d41a2660d5e334f2ee3bbf29183bf2e739b1dafa771"
 }
