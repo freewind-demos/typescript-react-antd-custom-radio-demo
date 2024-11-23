@@ -1,0 +1,20 @@
+.custom-radio .ant-radio {
+  position: relative;
+}
+
+.custom-radio .ant-radio-checked .ant-radio-inner {
+  background-color: #1890ff;
+}
+
+.custom-radio .ant-radio-checked .ant-radio-inner::after {
+  transform: scale(0);
+}
+
+.custom-radio .ant-radio-checked .ant-radio-inner::before {
+  content: '✓';
+  position: absolute;
+  top: -2px;
+  left: 2px;
+  font-size: 12px;
+  color: white;
+}
