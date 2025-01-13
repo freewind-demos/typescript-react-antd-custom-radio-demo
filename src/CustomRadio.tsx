@@ -8,8 +8,13 @@ const radioStyles = css`
     position: relative;
   }
 
+  .ant-radio-inner::after {
+    display: none;
+  }
+
   .ant-radio-checked .ant-radio-inner {
     background-color: #1890ff;
+    border-color: #1890ff;
   }
 
   .ant-radio-checked .ant-radio-inner::after {
